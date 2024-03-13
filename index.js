@@ -14,6 +14,7 @@ class Employees {
         this.title = title; 
         this.#salary = salary;
         this.#isHired = isHired;
+        this.#allEmployees = Employee [];
 
     }
 
@@ -37,9 +38,6 @@ class Employees {
     getTotalPayrool(employees){
 
     }
-
-
-
 }
 
 
