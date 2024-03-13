@@ -22,8 +22,21 @@ class Manager extends Employees {
     this.#employeesManaged.push(employee);
   }
 }
+class SalesPerson extends Employees {
+    #totalSales
+    constructor(clients,totalSales){
+        this.clients = [];
+        this.#totalSales = 0; 
+    }
+    //first get method that returns the totalSales for the salesperson
+    getSalesNumbers(){
+        return this.#totalSales;
+    }
+    makeSales(amount){
+        this.#totalSales += amount;
+    }
+}
 
-module.exports = Manager;
 
 module.exports = {
     Employees,
