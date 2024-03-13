@@ -17,6 +17,7 @@ class Employees {
 
     }
 
+    
     setSalary(amount) {
 
     }
@@ -34,7 +35,7 @@ class Employees {
     }
 
     getTotalPayrool(employees){
-        
+
     }
 
 
